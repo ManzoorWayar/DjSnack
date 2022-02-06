@@ -1,5 +1,11 @@
-const index = () => {
-  return <div>Home page</div>;
+import Layout from "@/components/Layout";
+
+const HomePage = () => {
+  return (
+    <Layout>
+      <div>123</div>
+    </Layout>
+  );
 };
 
-export default index;
+export default HomePage;
